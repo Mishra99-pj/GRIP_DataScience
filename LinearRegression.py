@@ -26,5 +26,5 @@ plt.show()
 print("Accuracy:",alg.score(Xts,Yts))
 
 import numpy as np
-test=np.array([10.05]).reshape(1,-1)
+test=np.array([9.25]).reshape(1,-1)
 print("Prediction:",alg.predict(test))
